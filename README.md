@@ -33,7 +33,13 @@ A React Native example chat app using Feathers that talks with the [feathers-cha
     react-native run-android
     ```
 
+For IOS, alternatively run `npm start` on react native app (start React packager), then open+run the native app from Xcode (to launch on simulator or whichever device you like).
+
 If you run into issues starting the apps please refer to the [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html). It's most likely a problem with your environment.
+
+## Database
+
+You can clear the database on the server by running `rm data/*.db` from the root folder of `feathers-chat`. This will remove all messages and users and give you a fresh start.
 
 ## Changelog
 
